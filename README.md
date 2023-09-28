@@ -6,4 +6,4 @@ Simulating to look at histogram of all measured superpositioned qbits showing th
 
 <img width="584" alt="image" src="https://github.com/Elstuhn/Quantum-RNG/assets/66341506/7b2fcc87-2f9b-433b-9fd3-3e365a2479bb">
 <br>
-What the quantum circuit in the backend looks like
+What the quantum circuit in the backend looks like on a 4-bit random number generator
