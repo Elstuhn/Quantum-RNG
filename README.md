@@ -8,5 +8,5 @@ Simulating to look at histogram of all measured superpositioned qbits showing th
 <br>
 What the quantum circuit in the backend looks like on a 4-bit random number generator
 <br><br>
-<img width="1076" alt="image" src="https://github.com/Elstuhn/Quantum-RNG/assets/66341506/166593bd-a129-478c-9df1-09cc436d4264">
+<img width="1119" alt="image" src="https://github.com/Elstuhn/Quantum-RNG/assets/66341506/3d025b80-9939-4640-90b7-1c0186170730">
 Distribution for 1-100
