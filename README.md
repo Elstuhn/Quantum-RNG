@@ -9,6 +9,6 @@ Simulating to look at histogram of all measured superpositioned qbits showing th
 What the quantum circuit in the backend looks like on a 4-bit random number generator
 <br><br>
 <img width="1119" alt="image" src="https://github.com/Elstuhn/Quantum-RNG/assets/66341506/3d025b80-9939-4640-90b7-1c0186170730">
--Distribution for numbers 1-100 inclusive
+- Distribution for numbers 1-100 inclusive
 - Avg time taken: 0.0003465821s
 - KS test p-value against scipy: 0.41538
