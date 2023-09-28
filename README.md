@@ -13,4 +13,4 @@ What the quantum circuit in the backend looks like on a 4-bit random number gene
 
 - Distribution for numbers 1-100 inclusive
 - Avg time taken: 0.0003465821s
-- KS test p-value against scipy: 0.41538
+- KS test p-value against scipy: 0.41538 (null hypothesis: both distributions identical)
