@@ -1,5 +1,6 @@
 # Contributing
 Look at issues for any current issues you can help with. You can also submit pull request to improve the program in any way like optimizing the code.
+
 Any valid pull request will be given the hacktoberfest-accepted label to count for hacktoberfest
 
 # Quantum-RNG
