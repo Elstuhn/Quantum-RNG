@@ -5,13 +5,13 @@ Any valid pull request will be given the hacktoberfest-accepted label to count f
 
 # Quantum-RNG
 
-<img width="1097" alt="image" src="https://github.com/Elstuhn/Quantum-RNG/assets/66341506/a51112a8-2225-4424-812d-bcfb0dc69a37">
-Simulating to look at histogram of all measured superpositioned qbits showing that probability is all equal
+##### Simulating to look at histogram of all measured superpositioned qbits showing that probability is all equal
+<img width="1103" alt="image" src="https://github.com/Elstuhn/Quantum-RNG/assets/66341506/ebcfb7e0-ae1a-466e-8a09-8d2a8358c5a2">
 <br><br>
 
-<img width="584" alt="image" src="https://github.com/Elstuhn/Quantum-RNG/assets/66341506/7b2fcc87-2f9b-433b-9fd3-3e365a2479bb">
+##### What the quantum circuit in the backend looks like on a 4-bit random number generator
+<img width="567" alt="image" src="https://github.com/Elstuhn/Quantum-RNG/assets/66341506/46733f01-09be-409d-b7fa-a32c351339dd">
 <br>
-What the quantum circuit in the backend looks like on a 4-bit random number generator
 <br><br>
 <img width="1089" alt="image" src="https://github.com/Elstuhn/Quantum-RNG/assets/66341506/7d5af2f0-69a1-40ba-bf05-426a6f186a88">
 <br>
