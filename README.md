@@ -13,7 +13,7 @@ Simulating to look at histogram of all measured superpositioned qbits showing th
 <br>
 What the quantum circuit in the backend looks like on a 4-bit random number generator
 <br><br>
-<img width="1119" alt="image" src="https://github.com/Elstuhn/Quantum-RNG/assets/66341506/3d025b80-9939-4640-90b7-1c0186170730">
+<img width="1089" alt="image" src="https://github.com/Elstuhn/Quantum-RNG/assets/66341506/7d5af2f0-69a1-40ba-bf05-426a6f186a88">
 <br>
 
 - Distribution for numbers 1-100 inclusive
