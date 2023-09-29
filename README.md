@@ -1,3 +1,7 @@
+# Contributing
+Look at issues for any current issues you can help with. You can also submit pull request to improve the program in any way like optimizing the code.
+Any valid pull request will be given the hacktoberfest-accepted label to count for hacktoberfest
+
 # Quantum-RNG
 
 <img width="1097" alt="image" src="https://github.com/Elstuhn/Quantum-RNG/assets/66341506/a51112a8-2225-4424-812d-bcfb0dc69a37">
@@ -14,3 +18,4 @@ What the quantum circuit in the backend looks like on a 4-bit random number gene
 - Distribution for numbers 1-100 inclusive
 - Avg time taken: 0.0003465821s
 - KS test p-value against scipy: 0.41538 (null hypothesis: both distributions identical)
+
