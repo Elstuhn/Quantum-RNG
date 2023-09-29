@@ -2,9 +2,7 @@ import numpy as np
 from qiskit import QuantumRegister, ClassicalRegister, execute
 from qiskit import QuantumCircuit, execute, Aer, IBMQ
 from qiskit import QuantumCircuit
-from qiskit_aer import AerSimulator
-from qiskit.tools.visualization import plot_histogram
-import matplotlib.pyplot as plt
+
 
 def QRNG(start:int, stop:int)->int:
     """
@@ -13,17 +11,25 @@ def QRNG(start:int, stop:int)->int:
     simulator = Aer.get_backend("qasm_simulator")
     if stop <= start:
         raise Exception("Numbers must be smaller to bigger")
-    bits = np.floor(np.log2(stop) + 1)
-    bits = int(bits)
+    bits = np.floor(np.log2(stop) + 1) if abs(stop)>abs(start) else np.floor(np.log2(start) + 1)
+    neg = False if start>=0 else True
+    bits = int(bits) if not neg else int(bits)+1
     qr = QuantumRegister(bits)
     cr = ClassicalRegister(bits)
     circuit = QuantumCircuit(qr, cr)
     for i in range(bits):
         circuit.h(i)
     circuit.measure(qr, cr)
-    circuit.draw(output="mpl")
-    result = execute(circuit, backend=simulator, shots=10000).result()
-    plot_histogram(result.get_counts(circuit))
-    plt.show()
-
-QRNG(1, 10)
+    result = execute(circuit, backend=simulator, shots=20).result()
+    results = list(result.get_counts().keys())
+    for i in results:
+        if neg:
+            sign = i[0]
+            mag = i[1:]
+            value = int(mag, 2)
+            if int(sign):
+                value = -value  
+        else:
+            value = int(i, 2)
+        if value >= start and value <= stop:
+            return value
